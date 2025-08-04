@@ -1,2 +1,4 @@
 # web-site-hacking
-web site to test path traversal 
+Hello i'm a dumb boy named kaif 
+
+##I dont know anything and wont't even try 
