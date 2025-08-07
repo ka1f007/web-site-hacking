@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Flask Site</title>
+
+    <!-- LINK TO CSS FILE -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to My Flask App</h1>
+    <p>This is a demo with Flask + CSS + JS!</p>
+
+    <!-- LINK TO JS FILE -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
